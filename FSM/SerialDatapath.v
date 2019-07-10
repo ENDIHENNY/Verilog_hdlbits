@@ -60,7 +60,7 @@ module top_module(
 			out_byte[7] = in;
 		    end
             
-			// Odd Parity Check State
+	    // Odd Parity Check State
             PARITY : next_state = in ? (flag ? WAIT : STOP_JUDGE) : (flag ? STOP_JUDGE : WAIT);
             
             // STOP bit Check State
