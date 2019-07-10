@@ -1,2 +1,2 @@
 # Verilog_hdlbits
-Practices for Verilog-coding
+Practices for Verilog-coding.
